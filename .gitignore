@@ -1,0 +1,24 @@
+.DS_Store
+# Node modules
+node_modules/
+
+# Cypress files to ignore
+cypress/videos/
+cypress/screenshots/
+cypress/coverage/
+cypress/results/
+/.DS_Store
+/node_modules/
+.DS_Store
+node_modules/
+
+# Logs
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Environment files (if applicable)
+.env
+.DS_Store
