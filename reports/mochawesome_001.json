@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-01-23T20:57:25.390Z",
+    "end": "2025-01-23T20:57:29.063Z",
+    "duration": 3673,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f9cca041-4e68-4048-b630-14de84daec0f",
+      "title": "",
+      "fullFile": "cypress/e2e/qauto/garage.cy.js",
+      "file": "cypress/e2e/qauto/garage.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f9d57a20-8bf5-4c5f-a985-a12f18851d94",
+          "title": "Garage with POM",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add [BMW] [X5]",
+              "fullTitle": "Garage with POM Add [BMW] [X5]",
+              "timedOut": null,
+              "duration": 3132,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_GaragePage.default.addNewCarByBrandAndModel('BMW', 'X5');\n_GaragePage.default.verifyLastAddedCarByName('BMW X5');",
+              "err": {},
+              "uuid": "2d2c5e2f-a05c-4996-a2bf-212a4a0c5798",
+              "parentUUID": "f9d57a20-8bf5-4c5f-a985-a12f18851d94",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2d2c5e2f-a05c-4996-a2bf-212a4a0c5798"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3132,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
