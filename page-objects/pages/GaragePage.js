@@ -38,12 +38,12 @@ class GaragePage {
     openPageAsLoggedUser() {
         HomePage.openPage();
         HomePage.openSignInForm();
-        SignInForm.loginWithCredentials(email, );
+        SignInForm.loginWithCredentials();
     }
     openPageAsLoggedUser() {
         HomePage.openPage();
         HomePage.openSignInForm();
-        SignInForm.loginWithCredentials('michael.krasnovskyi+testUser1@gmail.com', 'ZSgeVQhuU3qkvlG');
+        SignInForm.loginWithCredentials();
     }
 
     addNewCarByBrandAndModel(brand, model) {

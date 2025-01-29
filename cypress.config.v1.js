@@ -11,7 +11,7 @@ module.exports = defineConfig({
       USERNAME: 'guest',
       PASSWORD: 'welcome2qauto',
       userEmail:'dariaaa.tkachuk+User1@gmail.com',
-      userPassword: 'XyIKVMQAju6KOGK',
+      userPassword: 'fiTmiPQv6gBtdF1',
       linkGarage: 'https://qauto.forstudy.space/panel/garage',
     },
     defaultBrowser: 'chrome'

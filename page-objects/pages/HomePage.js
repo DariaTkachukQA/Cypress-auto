@@ -4,8 +4,9 @@ class HomePage {
     }
 
     openPage() {
-        //cy.visit(`https://${Cypress.env('USERNANE')}:${Cypress.env('USERNAME')}@qauto.forstudy.space`);
-        cy.visit(`/`);
+        // Відкриття сторінки з обліковими даними, якщо потрібно
+        // cy.visit(`https://${Cypress.env('USERNANE')}:${Cypress.env('PASSWORD')}@qauto.forstudy.space`);
+        cy.visit('/');
     }
 
     openSignInForm() {
